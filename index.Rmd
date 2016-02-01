@@ -40,7 +40,7 @@ carbsKcal <- carbs *4
 protKcal <-  protein *4
 fatKcal <-   fat *9
 totalKcal <- sum(carbsKcal,protKcal,fatKcal) 
-fatPercnt <- (ffatKcal/totalKcal)*100
+fatPercnt <- (fatKcal/totalKcal)*100
 
 ```
 
